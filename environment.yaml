@@ -1,0 +1,19 @@
+name: m5_forecasting
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  # - lightgbm
+  # - statsmodels
+  - joblib
+  - pip
+
+  - pip:
+      - tqdm

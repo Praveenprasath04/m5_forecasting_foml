@@ -1,0 +1,17 @@
+# Ignore data files
+data/*
+
+# Keep folder structure
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & outputs
+models/*
+outputs/*
+
